@@ -17,5 +17,5 @@ hints:
        enabled: true
        mods: Control|Shift
      binding:
-       key: L
+       key: O
        mods: Control|Shift
