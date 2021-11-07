@@ -1,0 +1,4 @@
+AddKeysToAgent yes
+
+CanonicalizeHostname yes
+CanonicalDomains ds.selectel.org
