@@ -11,4 +11,5 @@ alias -g NUL="2>&1 >/dev/null"
 
 # List.
 alias t='tree'
+alias ts='tree -L 1'
 alias ta='tree -a'
