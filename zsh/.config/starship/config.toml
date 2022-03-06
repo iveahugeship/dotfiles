@@ -1,0 +1,32 @@
+format = """
+$directory\
+$fill\
+$git_branch\
+$git_status\
+$terraform\
+$line_break\
+$character\
+"""
+right_format = """
+$cmd_duration\
+$status\
+"""
+add_newline = false
+
+[directory]
+truncation_length = 2
+truncate_to_repo = false
+truncation_symbol = "../"
+
+[cmd_duration]
+format = " [$duration]($style) "
+
+[git_branch]
+format = " [$symbol$branch]($style) "
+
+[terraform]
+symbol = " "
+
+[status]
+symbol = 	"✖ "
+disabled = false
