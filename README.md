@@ -18,3 +18,7 @@ Zsh supplied with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), [antigen](htt
 and [starship](https://github.com/starship/starship). They also will be installed automaticly after
 You create symlink. Note, that Starship installs in interactive mode so it may be required to answer
 some question while installation processing.
+
+### Fonts
+
+By default configuration uses patched JetBrainsMono Nerd font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) to use glyph and icons.
