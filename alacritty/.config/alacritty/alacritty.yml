@@ -6,7 +6,6 @@ import:
   - ~/.config/alacritty/fonts.yml
 
 env:
-  TERM: alacritty
   EDITOR: nvim
 
 shell:
