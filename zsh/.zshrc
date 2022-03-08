@@ -1,4 +1,4 @@
-export ZSH="/home/leschev/.config/zsh"
+export ZSH="$HOME/.config/zsh"
 
 # Zsh configuration
 source "$ZSH/aliases.zsh"
