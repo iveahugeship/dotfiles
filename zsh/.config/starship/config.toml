@@ -25,8 +25,8 @@ format = " [$duration]($style) "
 format = " [$symbol$branch]($style) "
 
 [terraform]
-symbol = " "
+symbol = " "
 
 [status]
-symbol = 	"✖ "
+symbol = " "
 disabled = false
