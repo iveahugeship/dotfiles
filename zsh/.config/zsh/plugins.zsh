@@ -1,4 +1,4 @@
-source "$ZSH/scripts/install_antigen.sh"
+source "$HOME/.dotfiles/scripts/install_antigen.sh"
 
 antigen use oh-my-zsh
 
