@@ -33,6 +33,8 @@ By default dotfiles uses patched [JetBrainsMono](https://github.com/ryanoasis/ne
 To correct dotfile work You should install this font and patch it by [Material Design icons](https://www.nerdfonts.com/cheat-sheet?set=mdi) as
 described [here](https://github.com/ryanoasis/nerd-fonts#font-patcher).
 
+If You use dotfiles on WSL You should install patched fonts in windows.
+
 ## Examples
 
 ### Appling configuration
