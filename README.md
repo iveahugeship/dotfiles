@@ -25,7 +25,7 @@ Note, that Starship installs in interactive mode so it may be required to answer
 
 ### Alacritty
 
-Alacritty offers minimal configuration using Zsh and Tmux, so You should install them first.
+Alacritty offers minimal configuration using Zsh so You should install it first.
 
 ### Fonts
 
