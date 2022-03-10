@@ -7,18 +7,28 @@ Just create symlinks to configuration files and it will set up automaticly.
 A few words about components. On top level of project You can see independent directories with
 configuration files that need to be symlinked in the $HOME.
 
+### Dotfiles
+
+Dotfiles contains different files to make dotfiles work automatically and more user-friendly.
+For the correct work of dotfiles it is necessary to create symlink to configurations placed here.
+
 ### Tmux
 
 Tmux contains fully configurated [TPM](https://github.com/tmux-plugins/tpm) that
-will be installed automaticly after You create symlink.
+will be installed automatically after You create symlink.
 
 ### Zsh
 
 Zsh supplied with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), [antigen](https://github.com/zsh-users/antigen)
-and [starship](https://github.com/starship/starship). They also will be installed automaticly after
+and [starship](https://github.com/starship/starship). They also will be installed automatically after
 You create symlink. Note, that Starship installs in interactive mode so it may be required to answer
 some question while installation processing.
 
+### Alacritty
+
+Alacritty uses Zsh and Tmux by default, so You should install it first.
+
 ### Fonts
 
-By default configuration uses patched JetBrainsMono Nerd font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) to use glyph and icons.
+By default configuration uses patched JetBrainsMono font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) to use glyph and icons.
+Components using this fonts will isntall it automatically.
