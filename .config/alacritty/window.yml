@@ -1,0 +1,14 @@
+---
+window:
+  opacity: 0.98
+  dimensions:
+    columns: 120
+    lines: 40
+  padding:
+    x: 10
+    y: 10
+
+cursor:
+  style:
+    blinking: On
+

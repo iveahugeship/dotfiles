@@ -1,10 +1,9 @@
-## Colors configuration
+# Colors (Default)
 colors:
   # Default colors
   primary:
-    background: '#333945'
+    background: '#1D1F21'
     foreground: '#D8DEE9'
-
   # Normal colors
   normal:
     black:   '#3B4252'
@@ -15,7 +14,6 @@ colors:
     magenta: '#B48EAD'
     cyan:    '#88C0D0'
     white:   '#E5E9F0'
-
   # Bright colors
   bright:
     black:   '#4C566A'

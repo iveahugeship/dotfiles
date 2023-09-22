@@ -1,0 +1,23 @@
+---
+key_bindings:
+  #- { key: C,              mods: Shift|Control,                   action: Copy             }
+  #- { key: V,              mods: Shift|Control,                   action: Paste            }
+
+  - { key: Plus,           mods: Shift|Control,                   action: ResetFontSize    }
+  #- { key: PageUp,         mods: Shift|Control,                   action: IncreaseFontSize }
+  #- { key: PageDown,       mods: Shift|Control,                   action: DecreaseFontSize }
+
+hints:
+  enabled:
+   - regex: "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)\
+             [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+     hyperlinks: true
+     command: open
+     #command: xdg-open
+     post_processing: true
+     mouse:
+       enabled: true
+       mods: Control|Shift
+     binding:
+       key: O
+       mods: Control|Shift

@@ -3,7 +3,6 @@ $directory\
 $fill\
 $git_branch\
 $git_status\
-$terraform\
 $line_break\
 $character\
 """
@@ -24,9 +23,6 @@ format = " [$duration]($style) "
 [git_branch]
 format = " [$symbol$branch]($style) "
 
-[terraform]
-symbol = " "
-
 [status]
-symbol = " "
+symbol = "󰀧 "
 disabled = false
