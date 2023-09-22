@@ -1,4 +1,6 @@
 .config/tmux/tpm
-.config/tmux/plugin
+.config/tmux/plugins
+
+.config/karabiner/automatic_backups
 
 *.zwc
