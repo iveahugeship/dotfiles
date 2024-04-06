@@ -31,10 +31,11 @@ alias af='alias'
 
 ## Pipe shortcuts
 alias -g H='| head'
-alias -g T='| tail'
-alias -g L="| less"
-alias -g C="| cat"
+alias -g L='| less'
+alias -g C='| cat'
 alias -g G='| grep'
+alias -g AS='| awk "NR>1"'
+alias -g TS='| tspin | spacer'
 alias -g NUL="2>&1 >/dev/null"
 
 ## Tree
