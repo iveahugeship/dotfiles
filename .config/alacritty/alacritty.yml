@@ -1,6 +1,0 @@
----
-import:
-  - ~/.config/alacritty/window.yml
-  - ~/.config/alacritty/bindings.yml
-  - ~/.config/alacritty/fonts.yml
-  - ~/.config/alacritty/themes/default.yml

@@ -1,0 +1,13 @@
+[cursor.style]
+blinking = "On"
+
+[window]
+opacity = 0.98
+
+[window.dimensions]
+columns = 120
+lines = 40
+
+[window.padding]
+x = 10
+y = 10
