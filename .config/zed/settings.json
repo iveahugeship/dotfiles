@@ -1,0 +1,70 @@
+{
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "buffer_font_features": {
+    "calt": false
+  },
+
+  "notification_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": true,
+    "agent_review": true
+  },
+  "title_bar": {
+    "show_branch_icon": false,
+    "show_onboarding_banner": true,
+    "show_user_picture": true
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "gutter": {
+    "code_actions": false
+  },
+
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
+    "version": "2"
+  },
+  "edit_predictions": {
+    "enabled_in_text_threads": false
+  },
+
+  "auto_install_extensions": {
+    "html": false
+  }
+}

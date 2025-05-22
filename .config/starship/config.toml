@@ -1,6 +1,7 @@
 format = """
 $directory\
 $fill\
+$kubernetes \
 $git_branch\
 $git_status\
 $line_break\
@@ -25,4 +26,7 @@ format = " [$symbol$branch]($style) "
 
 [status]
 symbol = "󰀧 "
+disabled = false
+
+[kubernetes]
 disabled = false

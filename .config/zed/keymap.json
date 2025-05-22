@@ -1,0 +1,14 @@
+[
+  {
+    "bindings": {
+      "cmd-t": "tab_switcher::ToggleAll",
+      "cmd-r": "task::Spawn",
+      "cmd-o": "outline::Toggle",
+
+      "cmd-b": "workspace::ToggleRightDock",
+      "cmd-i": "agent::ToggleFocus",
+      "cmd-u": "project_panel::ToggleFocus",
+      "cmd-s": "editor::ToggleBreakpoint"
+    }
+  }
+]

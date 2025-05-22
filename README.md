@@ -25,6 +25,12 @@
 - keka
 - iina
 
+#### K8S Plugins
+
+- krew
+- ctx
+- ns
+
 ## Installation
 
 Just install general components and their dependencies if you want to use my dotfiles as is. Then you
