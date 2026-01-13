@@ -1,1 +1,7 @@
-import = ["/Users/iveahugeship/.config/alacritty/window.toml", "/Users/iveahugeship/.config/alacritty/bindings.toml", "/Users/iveahugeship/.config/alacritty/fonts.toml", "/Users/iveahugeship/.config/alacritty/themes/default.toml"]
+[general]
+import = [
+  "/Users/iveahugeship/.config/alacritty/window.toml",
+  "/Users/iveahugeship/.config/alacritty/bindings.toml",
+  "/Users/iveahugeship/.config/alacritty/fonts.toml",
+  "/Users/iveahugeship/.config/alacritty/themes/default.toml"
+]
