@@ -1,15 +1,15 @@
+# Golang
+export PATH="$PATH:$HOME/go/bin"
+
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-
 # Starship
 export STARSHIP_CONFIG=~/.config/starship/config.toml
-
 eval "$(starship init zsh)"
 
 # Krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-
 
 # Antigen
 source /opt/homebrew/share/antigen/antigen.zsh
@@ -55,6 +55,4 @@ alias krew='kubectl krew'
 
 # Env
 export EDITOR=vim
-export KUBECONFIG=~/.kube/config:~/.kube/config_am1-et-prod:~/.kube/config_lga-dm-dev:~/.kube/config_lga-dm-prod:~/.kube/config_lga-et-prod:~/.kube/config_lga-et-test:~/.kube/config_ma2-dm-dev:~/.kube/config_ma2-dm-prod:~/.kube/config_ma2-et-prod:~/.kube/config_ma2-test1:~/.kube/config_ma2-test2:~/.kube/config_madapi-dev:~/.kube/config_madapi-prod:~/.kube/config_sjc-et-prod
-
-source $ZSH/oh-my-zsh.sh
+export KUBECONFIG=~/.kube/config:~/.kube/config_am1-et-prod:~/.kube/config_lga-dm-dev:~/.kube/config_lga-dm-prod:~/.kube/config_lga-et-prod:~/.kube/config_lga-et-test:~/.kube/config_ma2-dm-dev:~/.kube/config_ma2-dm-prod:~/.kube/config_ma2-et-prod:~/.kube/config_ma2-test1:~/.kube/config_ma2-test2:~/.kube/config_madapi-dev:~/.kube/config_madapi-prod:~/.kube/config_sjc-et-prod:~/.kube/config_k3s:~/.kube/config_sjc2-et-prod
