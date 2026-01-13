@@ -19,10 +19,6 @@ antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
-antigen bundle robbyrussell/oh-my-zsh plugins/copybuffer
-antigen bundle robbyrussell/oh-my-zsh plugins/copypath
-antigen bundle robbyrussell/oh-my-zsh plugins/copyfile
-antigen bundle robbyrussell/oh-my-zsh plugins/extract
 antigen bundle robbyrussell/oh-my-zsh plugins/kubectl
 antigen bundle unixorn/kubectx-zshplugin
 
