@@ -1,70 +1,152 @@
 {
-  "base_keymap": "VSCode",
   "vim_mode": true,
+
+  "ui_font_size": 20,
+  "buffer_font_size": 18,
+  "buffer_font_features": {
+    "calt": false,
+  },
+  "agent_ui_font_size": 18,
+  "agent_buffer_font_size": 18,
+
+  "icon_theme": "Soft Charmed Icons",
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark"
+    "dark": "Aura Soft Dark",
   },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+  "theme_overrides": {
+    "Aura Soft Dark": {
+      "border": "#21202d",
+      "border.variant": "#21202d",
+      "title_bar.background": "#21202d",
+      "panel.background": "#21202d",
+      "panel.focused_border": "#3a3753",
+      "status_bar.background": "#21202d",
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
   },
 
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
-  "buffer_font_features": {
-    "calt": false
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_branch_name": false,
+    "show_user_menu": false,
   },
-
-  "notification_panel": {
-    "dock": "left"
-  },
-  "outline_panel": {
-    "dock": "left"
-  },
-  "project_panel": {
-    "dock": "right"
+  "tab_bar": {
+    "show": false,
   },
   "toolbar": {
-    "breadcrumbs": false,
     "quick_actions": false,
-    "selections_menu": true,
-    "agent_review": true
   },
-  "title_bar": {
-    "show_branch_icon": false,
-    "show_onboarding_banner": true,
-    "show_user_picture": true
+  "status_bar": {
+    "experimental.show": true,
   },
-  "inlay_hints": {
-    "enabled": true
+  "project_panel": {
+    "button": false,
+    "dock": "right",
+    "default_width": 300,
+    "hide_root": true,
+    "auto_fold_dirs": false,
+    "starts_open": false,
+    "sticky_scroll": false,
+    "indent_guides": {
+      "show": "never",
+    },
+    "scrollbar": {
+      "show": "never",
+    },
   },
-  "collaboration_panel": {
-    "button": false
+  "outline_panel": {
+    "button": false,
+    "default_width": 300,
+    "indent_guides": {
+      "show": "never",
+    },
   },
   "git_panel": {
-    "button": false
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "global_lsp_settings": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
   },
   "terminal": {
-    "button": false
+    "button": false,
   },
-  "gutter": {
-    "code_actions": false
+  "debugger": {
+    "button": false,
   },
-
   "agent": {
+    "button": false,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4.1"
+      "model": "gpt-4.1",
     },
-    "version": "2"
   },
-  "edit_predictions": {
-    "enabled_in_text_threads": false
+  "notification_panel": {
+    "button": false,
+  },
+  "file_finder": {
+    "modal_max_width": "small",
   },
 
-  "auto_install_extensions": {
-    "html": false
-  }
+  "indent_guides": {
+    "enabled": false,
+  },
+  "scrollbar": {
+    "show": "never",
+  },
+  "gutter": {
+    "min_line_number_digits": 0,
+    "folds": false,
+    "runnables": false,
+  },
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+    "enabled_in_text_threads": false,
+    "mode": "eager",
+  },
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15,
+  },
+  "seed_search_query_from_cursor": "never",
+  "show_completions_on_input": false,
+  "inline_code_actions": false,
+  "lsp_document_colors": "none",
+  "horizontal_scroll_margin": 1,
+  "vertical_scroll_margin": 1,
+  "when_closing_with_no_tabs": "keep_window_open",
+  "close_on_file_delete": true,
+  "restore_on_file_reopen": true,
+  "restore_on_startup": "empty_tab",
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
 }

@@ -1,14 +1,19 @@
 [
   {
     "bindings": {
-      "cmd-t": "tab_switcher::ToggleAll",
-      "cmd-r": "task::Spawn",
-      "cmd-o": "outline::Toggle",
+      "cmd-h": "outline_panel::Toggle",
+      "cmd-l": "project_panel::Toggle",
+      "cmd-s": "workspace::ToggleCenteredLayout",
+      "cmd-j": "terminal_panel::Toggle",
+      "cmd-k": null,
 
-      "cmd-b": "workspace::ToggleRightDock",
-      "cmd-i": "agent::ToggleFocus",
-      "cmd-u": "project_panel::ToggleFocus",
-      "cmd-s": "editor::ToggleBreakpoint"
-    }
-  }
+      "cmd-e": "command_palette::Toggle",
+      "cmd-t": "task::Spawn",
+      "cmd-p": "file_finder::Toggle",
+      "cmd-i": "assistant::InlineAssist",
+      "cmd-o": "editor::ToggleFold",
+
+      "?": "search::ToggleReplace",
+    },
+  },
 ]
