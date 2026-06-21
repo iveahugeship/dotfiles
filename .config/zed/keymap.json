@@ -5,6 +5,7 @@
       "cmd-l": "project_panel::Toggle",
       "cmd-s": "workspace::ToggleCenteredLayout",
       "cmd-j": "terminal_panel::Toggle",
+      "cmd-r": "agent::Toggle",
       "cmd-k": null,
 
       "cmd-e": "command_palette::Toggle",
@@ -13,7 +14,15 @@
       "cmd-i": "assistant::InlineAssist",
       "cmd-o": "editor::ToggleFold",
 
+      "cmd-]": "tab_switcher::Toggle",
+
       "?": "search::ToggleReplace",
+    },
+  },
+  {
+    "context": "TabSwitcher",
+    "bindings": {
+      "cmd-[": "menu::SelectPrevious",
     },
   },
 ]

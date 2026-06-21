@@ -3,4 +3,8 @@
 
 .config/karabiner/automatic_backups
 
+.config/zed/prompts
+
+.config/goose/chatgpt_codex
+
 *.zwc

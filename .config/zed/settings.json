@@ -1,13 +1,14 @@
 {
+  "cli_default_open_behavior": "new_window",
   "vim_mode": true,
 
-  "ui_font_size": 20,
-  "buffer_font_size": 18,
+  "ui_font_size": 18,
+  "buffer_font_size": 16,
   "buffer_font_features": {
     "calt": false,
   },
-  "agent_ui_font_size": 18,
-  "agent_buffer_font_size": 18,
+  "agent_ui_font_size": 16,
+  "agent_buffer_font_size": 16,
 
   "icon_theme": "Soft Charmed Icons",
   "theme": {
@@ -52,7 +53,7 @@
   "project_panel": {
     "button": false,
     "dock": "right",
-    "default_width": 300,
+    "default_width": 350,
     "hide_root": true,
     "auto_fold_dirs": false,
     "starts_open": false,
@@ -65,6 +66,7 @@
     },
   },
   "outline_panel": {
+    "dock": "left",
     "button": false,
     "default_width": 300,
     "indent_guides": {
@@ -72,9 +74,11 @@
     },
   },
   "git_panel": {
+    "dock": "left",
     "button": false,
   },
   "collaboration_panel": {
+    "dock": "left",
     "button": false,
   },
   "search": {
@@ -90,16 +94,6 @@
     "button": false,
   },
   "debugger": {
-    "button": false,
-  },
-  "agent": {
-    "button": false,
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4.1",
-    },
-  },
-  "notification_panel": {
     "button": false,
   },
   "file_finder": {
@@ -125,11 +119,6 @@
       "enabled": false,
     },
   },
-  "edit_predictions": {
-    "provider": "copilot",
-    "enabled_in_text_threads": false,
-    "mode": "eager",
-  },
   "centered_layout": {
     "left_padding": 0.15,
     "right_padding": 0.15,
@@ -144,6 +133,31 @@
   "close_on_file_delete": true,
   "restore_on_file_reopen": true,
   "restore_on_startup": "empty_tab",
+
+  "agent": {
+    "dock": "right",
+    "button": false,
+    "default_width": 350,
+    "default_model": {
+      "effort": "medium",
+      "enable_thinking": true,
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+    },
+    "inline_assistant_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": false,
+    },
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry",
+    },
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
 
   "telemetry": {
     "diagnostics": false,

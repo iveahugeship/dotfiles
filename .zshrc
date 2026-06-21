@@ -1,3 +1,6 @@
+# Rbenv
+source ~/.zshrc.ruby
+
 # Golang
 export PATH="$PATH:$HOME/go/bin"
 
@@ -48,7 +51,11 @@ alias ktx='kubectx'
 alias kns='kubens'
 alias krew='kubectl krew'
 
+## Container Use
+alias cu="container-use"
+
 
 # Env
 export EDITOR=vim
-export KUBECONFIG=~/.kube/config:~/.kube/config_am1-et-prod:~/.kube/config_ma2-dm-dev:~/.kube/config_ma2-dm-prod:~/.kube/config_ma2-et-prod:~/.kube/config_ma2-test1:~/.kube/config_ma2-test2:~/.kube/config_sjc-et-prod:~/.kube/config_sjc2-et-prod
+export KUBECONFIG=~/.kube/config:~/.kube/config_am1-et-prod:~/.kube/config_ma2-dm-dev:~/.kube/config_ma2-dm-prod:~/.kube/config_ma2-et-prod:~/.kube/config_ma2-test1:~/.kube/config_ma2-test2:~/.kube/config_sjc-et-prod:~/.kube/config_sjc2-et-prod:~/.kube/config_gcp-usw-dm:~/.kube/config_ma2-sre
+export XDG_CONFIG_HOME="$HOME/.config"

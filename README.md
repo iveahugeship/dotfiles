@@ -10,6 +10,9 @@
 - Tmux
 - Starship 
 - Karabiner
+- Zed
+- Goose
+- Container Use
 
 ### Dependencies
 
