@@ -2,41 +2,66 @@
 
 ## Components
 
-### General components
+### General
 
-- Zsh
-- Antigen
-- Alacritty
-- Tmux
-- Starship 
-- Karabiner
-- Zed
-- Goose
-- Container Use
+```
+brew install \
+  karabiner-elements \
+  raycast \
+  keka \
+  iina \
+  arc \
+  qbittorrent \
+  zed
+```
 
-### Dependencies
+### Terminal
 
-- tpm
-- JetBrains Mono Nerd Font
+```
+brew install \
+  alacritty font-jetbrains-mono-nerd-font \
+  zsh antigen starship \
+  tmux tpm
+```
 
-### Additional Components
+### CLI
 
-#### MacOS
+```
+brew install \
+  git \
+  tree \
+  mtr \
+  tailspin \
+  spacer
+```
 
-- Brew
-- Raycast
-- keka
-- iina
+### LLM
 
-#### K8S Plugins
+```
+brew install \
+  ollama \
+  block-goose-cli \
+  goose \
+  container-use
+```
 
-- krew
-- ctx
-- ns
+### Kubernetes
+
+```
+brew install \
+  docker-desktop \
+  kubernetes-cli \
+  krew
+
+krew install ctx
+```
 
 ## Installation
 
-Just install general components and their dependencies if you want to use my dotfiles as is. Then you
-should copy dotfiles to your home directory. Also you can make symlinks to dotfiles and this way is prefered.
+Just install general components. Then copy dotfiles to your home directory.
+Also you can make symlinks to dotfiles. This way is prefered:
 
-For MacOS you can install all components and their dependencies via Brew.
+```
+ln -sf $(pwd)/.zshrc ~/
+ln -sf $(pwd)/.config/alacritty ~/.config
+```
