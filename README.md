@@ -40,9 +40,7 @@ brew install \
 ```
 brew install \
   ollama \
-  block-goose-cli \
-  goose \
-  container-use
+  claude-code
 ```
 
 ### Kubernetes

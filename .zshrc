@@ -16,6 +16,10 @@ antigen bundle unixorn/kubectx-zshplugin
 antigen apply
 
 
+# rbenv
+eval "$(rbenv init -)"
+
+
 # Aliases
 
 ## Alias finder
