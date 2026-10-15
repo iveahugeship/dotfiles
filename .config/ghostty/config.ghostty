@@ -1,0 +1,49 @@
+# Font
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 15
+font-feature = -calt
+font-feature = -liga
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# Window
+window-width = 120
+window-height = 40
+window-padding-x = 10
+window-padding-y = 10
+background-opacity = 0.98
+
+# Features
+fullscreen = true
+link-previews = false
+
+
+# Keybinds
+keybind = ctrl+b>g=new_split:right
+keybind = ctrl+b>v=new_split:down
+keybind = ctrl+b>h=goto_split:left
+keybind = ctrl+b>l=goto_split:right
+keybind = ctrl+b>j=goto_split:down
+keybind = ctrl+b>k=goto_split:up
+keybind = ctrl+b>w=close_surface
+keybind = ctrl+b>f=toggle_split_zoom
+keybind = ctrl+b>ctrl+h=resize_split:left,40
+keybind = ctrl+b>ctrl+l=resize_split:right,40
+keybind = ctrl+b>ctrl+j=resize_split:down,40
+keybind = ctrl+b>ctrl+k=resize_split:up,40
+keybind = ctrl+b>e=equalize_splits
+keybind = ctrl+b>shift+r=reload_config
+
+keybind = ctrl+b>r=activate_key_table:resize
+keybind = resize/h=resize_split:left,40
+keybind = resize/l=resize_split:right,40
+keybind = resize/j=resize_split:down,40
+keybind = resize/k=resize_split:up,40
+keybind = resize/ctrl+h=resize_split:left,40
+keybind = resize/ctrl+l=resize_split:right,40
+keybind = resize/ctrl+j=resize_split:down,40
+keybind = resize/ctrl+k=resize_split:up,40
+keybind = resize/catch_all=deactivate_key_table
