@@ -19,9 +19,8 @@ brew install \
 
 ```
 brew install \
-  alacritty font-jetbrains-mono-nerd-font \
+  ghostty \
   zsh antigen starship \
-  tmux tpm
 ```
 
 ### CLI
@@ -40,7 +39,8 @@ brew install \
 ```
 brew install \
   ollama \
-  claude-code
+  claude-code \
+  herdr
 ```
 
 ### Kubernetes
@@ -61,5 +61,5 @@ Also you can make symlinks to dotfiles. This way is prefered:
 
 ```
 ln -sf $(pwd)/.zshrc ~/
-ln -sf $(pwd)/.config/alacritty ~/.config
+ln -sf $(pwd)/.config/ghostty ~/.config
 ```

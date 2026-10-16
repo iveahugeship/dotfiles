@@ -1,0 +1,45 @@
+onboarding = false
+
+# tmux-style keybinds, mirrors the old .config/tmux/bindings.conf.
+# tmux session -> herdr workspace, tmux window -> herdr tab.
+[keys]
+prefix = "ctrl+b"
+reload_config = "prefix+cmd+shift+comma"
+
+# Movement
+focus_pane_left = "prefix+h"
+focus_pane_down = "prefix+j"
+focus_pane_up = "prefix+k"
+focus_pane_right = "prefix+l"
+swap_pane_left = "prefix+shift+h"
+swap_pane_down = "prefix+shift+j"
+swap_pane_up = "prefix+shift+k"
+swap_pane_right = "prefix+shift+l"
+next_tab = "prefix+ctrl+n"
+previous_tab = "prefix+ctrl+p"
+next_workspace = "prefix+shift+n"
+previous_workspace = "prefix+shift+p"
+
+# Panes
+split_vertical = "prefix+g"    # Side by side.
+split_horizontal = "prefix+v"  # Stacked.
+close_pane = "prefix+w"
+zoom = "prefix+f"
+resize_pane_left = "prefix+ctrl+h"
+resize_pane_down = "prefix+ctrl+j"
+resize_pane_up = "prefix+ctrl+k"
+resize_pane_right = "prefix+ctrl+l"
+
+# Tabs (tmux windows)
+new_tab = "prefix+ctrl+t"
+close_tab = "prefix+ctrl+w"
+
+# Workspaces (tmux sessions)
+new_workspace = "prefix+t"
+workspace_picker = "prefix+s"
+detach = "prefix+d"
+goto = "prefix+ctrl+g"
+settings = "prefix+shift+s"
+
+# Copy mode
+copy_mode = "prefix+/"
