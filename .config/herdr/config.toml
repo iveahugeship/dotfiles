@@ -1,45 +1,37 @@
 onboarding = false
 
-# tmux-style keybinds, mirrors the old .config/tmux/bindings.conf.
-# tmux session -> herdr workspace, tmux window -> herdr tab.
+[ui]
+copy_on_select = false
+confirm_close = false
+
+prompt_new_tab_name = false
+prompt_new_workspace_name = false
+
+sidebar_start_collapsed = true
+sidebar_collapsed_mode = "hidden"
+
+tab_bar_position = "bottom"
+tab_bar_right = [
+  { type = "datetime", format = "%H:%M" },
+]
+tab_bar_right_separator = "|"
+
 [keys]
-prefix = "ctrl+b"
-reload_config = "prefix+cmd+shift+comma"
+toggle_sidebar = "prefix+ctrl+h"
 
-# Movement
-focus_pane_left = "prefix+h"
-focus_pane_down = "prefix+j"
-focus_pane_up = "prefix+k"
-focus_pane_right = "prefix+l"
-swap_pane_left = "prefix+shift+h"
-swap_pane_down = "prefix+shift+j"
-swap_pane_up = "prefix+shift+k"
-swap_pane_right = "prefix+shift+l"
-next_tab = "prefix+ctrl+n"
-previous_tab = "prefix+ctrl+p"
-next_workspace = "prefix+shift+n"
-previous_workspace = "prefix+shift+p"
+reload_config = "prefix+,"
+detach = "prefix+d"
+goto = "prefix+s"
 
-# Panes
-split_vertical = "prefix+g"    # Side by side.
-split_horizontal = "prefix+v"  # Stacked.
-close_pane = "prefix+w"
-zoom = "prefix+f"
-resize_pane_left = "prefix+ctrl+h"
-resize_pane_down = "prefix+ctrl+j"
-resize_pane_up = "prefix+ctrl+k"
-resize_pane_right = "prefix+ctrl+l"
+new_workspace = "prefix+shift+t"
+close_workspace = "prefix+shift+w"
+workspace_picker = "prefix+shift+s"
 
-# Tabs (tmux windows)
 new_tab = "prefix+ctrl+t"
 close_tab = "prefix+ctrl+w"
 
-# Workspaces (tmux sessions)
-new_workspace = "prefix+t"
-workspace_picker = "prefix+s"
-detach = "prefix+d"
-goto = "prefix+ctrl+g"
-settings = "prefix+shift+s"
-
-# Copy mode
-copy_mode = "prefix+/"
+split_vertical = "prefix+v"
+split_horizontal = "prefix+g"
+close_pane = "prefix+w"
+zoom = "prefix+f"
+resize_mode = "prefix+r"
