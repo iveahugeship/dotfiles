@@ -17,21 +17,33 @@ tab_bar_right = [
 tab_bar_right_separator = "|"
 
 [keys]
-toggle_sidebar = "prefix+ctrl+h"
+toggle_sidebar = ["prefix+ctrl+h", "prefix+ctrl+р"]
 
-reload_config = "prefix+,"
-detach = "prefix+d"
-goto = "prefix+s"
+reload_config = ["prefix+,", "prefix+б"]
+detach = ["prefix+d", "prefix+в"]
+goto = ["prefix+s", "prefix+ы"]
 
-new_workspace = "prefix+shift+t"
-close_workspace = "prefix+shift+w"
-workspace_picker = "prefix+shift+s"
+new_workspace = ["prefix+shift+t", "prefix+shift+е"]
+close_workspace = ["prefix+shift+w", "prefix+shift+ц"]
+workspace_picker = ["prefix+shift+s", "prefix+shift+ы"]
 
-new_tab = "prefix+ctrl+t"
-close_tab = "prefix+ctrl+w"
+new_tab = ["prefix+ctrl+t", "prefix+ctrl+е"]
+close_tab = ["prefix+ctrl+w", "prefix+ctrl+ц"]
 
-split_vertical = "prefix+v"
-split_horizontal = "prefix+g"
-close_pane = "prefix+w"
-zoom = "prefix+f"
-resize_mode = "prefix+r"
+split_vertical = ["prefix+g", "prefix+п"]
+split_horizontal = ["prefix+v", "prefix+м"]
+close_pane = ["prefix+w", "prefix+ц"]
+zoom = ["prefix+f", "prefix+а"]
+resize_mode = ["prefix+r", "prefix+к"]
+
+[[keys.command]]
+key = "prefix+q"
+type = "shell"
+command = "herdr server stop"
+description = "stop server"
+
+[[keys.command]]
+key = "prefix+й"
+type = "shell"
+command = "herdr server stop"
+description = "stop server"

@@ -40,7 +40,8 @@ brew install \
 brew install \
   ollama \
   claude-code \
-  herdr
+  herdr \
+  npx
 ```
 
 ### Kubernetes
