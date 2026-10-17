@@ -4,6 +4,9 @@ onboarding = false
 copy_on_select = false
 confirm_close = false
 
+pane_outer_borders = false
+pane_gaps = false
+
 prompt_new_tab_name = false
 prompt_new_workspace_name = false
 
@@ -47,6 +50,34 @@ key = "prefix+й"
 type = "shell"
 command = "herdr server stop"
 description = "stop server"
+
+[[keys.command]]
+key = "prefix+k"
+type = "shell"
+command = '''
+id=$(herdr tab list | jq -r 'first(.result.tabs[] | select(.label == "kubernetes") | .tab_id) // empty')
+if [ -n "$id" ]; then
+  herdr tab focus "$id"
+else
+  pane=$(herdr tab create --label kubernetes --focus | jq -r .result.root_pane.pane_id)
+  herdr pane run "$pane" 'sofka; herdr tab close "$HERDR_TAB_ID"'
+fi
+'''
+description = "sofka: open in new tab"
+
+[[keys.command]]
+key = "prefix+л"
+type = "shell"
+command = '''
+id=$(herdr tab list | jq -r 'first(.result.tabs[] | select(.label == "kubernetes") | .tab_id) // empty')
+if [ -n "$id" ]; then
+  herdr tab focus "$id"
+else
+  pane=$(herdr tab create --label kubernetes --focus | jq -r .result.root_pane.pane_id)
+  herdr pane run "$pane" 'sofka; herdr tab close "$HERDR_TAB_ID"'
+fi
+'''
+description = "sofka: open in new tab"
 
 [[keys.command]]
 key = "prefix+z"

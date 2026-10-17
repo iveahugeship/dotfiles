@@ -1,0 +1,8 @@
+prefer_context_namespace = false
+
+[keys.table]
+delete = "alt-d"
+
+[keys.navigation]
+half_page_up = "ctrl-u"
+half_page_down = "ctrl-d"

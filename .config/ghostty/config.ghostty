@@ -22,6 +22,8 @@ window-padding-y = 10
 background-opacity = 0.98
 
 # Keybinds
+keybind = cmd+d=text:\x1bd
+
 keybind = cmd+shift+key_g=new_split:right
 keybind = cmd+shift+key_v=new_split:down
 keybind = cmd+shift+key_h=goto_split:left

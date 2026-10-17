@@ -43,6 +43,7 @@ alias ta='tree -a'
 alias ktx='kubectx'
 alias kns='kubens'
 alias krew='kubectl krew'
+alias sofka='sofka --allow-v1-client-cert --context "$(kubectl config current-context)"'
 
 ## Container Use
 alias cu="container-use"

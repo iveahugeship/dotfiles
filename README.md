@@ -53,7 +53,8 @@ herdr plugin install furkankly/zoetrope/herdr-plugin
 brew install \
   docker-desktop \
   kubernetes-cli \
-  krew
+  krew \
+  sofka
 
 krew install ctx
 ```
