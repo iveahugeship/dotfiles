@@ -42,6 +42,9 @@ brew install \
   claude-code \
   herdr \
   npx
+
+herdr integration install claude
+herdr plugin install furkankly/zoetrope/herdr-plugin
 ```
 
 ### Kubernetes

@@ -47,3 +47,15 @@ key = "prefix+й"
 type = "shell"
 command = "herdr server stop"
 description = "stop server"
+
+[[keys.command]]
+key = "prefix+z"
+type = "plugin_action"
+command = "furkankly.zoetrope.open-split"
+description = "zoetrope: session graph (split)"
+
+[[keys.command]]
+key = "prefix+я"
+type = "plugin_action"
+command = "furkankly.zoetrope.open-split"
+description = "zoetrope: session graph (split)"
